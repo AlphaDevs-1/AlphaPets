@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="/AlphaPets/Formulario/assets/img/logo.svg">
+</head>
+<body>
+    <header>
+        <div class="header__content">
+
+        
+            <div class="nav__logo">
+                <img src="./assets/img/logo.svg" alt="logo AlphaDevs">
+            </div>
+
+            <div class="nav__container">
+                <nav >           
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="home.html" class="nav__link">home</a></li>
+                        <li class="nav__item"><a href="#garelly" class="nav__link">garelly</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
+                    </ul>
+                </nav>
+            </div>     
+        </div>
+    </header> 
+    <form class="formulario">
+    
+        <h1>login form</h1>
+        <div class="contenedor">
+
+        
+            <div class="input__contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input id="correo" type="email"  placeholder="Email">
+            </div>
+            
+            <div class="input__contenedor">
+                <i class="fas fa-key icon"></i>
+                <input id="password" type="password"  placeholder="Password">
+            </div>  
+                <input id="ingresar" type="submit"  class="button" onclick="event.preventDefault()">
+                <p>By signing up, you agree to our Terms of Use and Privacy Policy.</p>
+                <p> You do not have an account?  <a class="link" href="registrarse.html">Check In </a></p>
+            </div>
+        </div>
+    </form>
+        
+
+    <script src="./assets/js/inicio-sesion.js" > </script>
+</body>
+
+</html>
