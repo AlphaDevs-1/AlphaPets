@@ -1,12 +1,15 @@
+//declaracion de variables
 let especie = document.getElementById("especie")
 let ubicacion = document.getElementById("ubicacion")
 let observacion = document.getElementById("observacion")
 let btnRegistrarAlerta = document.getElementById("btnRegistrarAlerta")
 let form = document.getElementById("alertasForm")
 
+//fin declaracion de variables
+//declaracion de fucniones
 btnRegistrarAlerta.addEventListener("click", function () {
     if (especie.value && ubicacion.value && observacion.value) {
-        let alertasDB = JSON.parse(window.localStorage.getItem("alertas"))
+        let alertasDB = JSON.parse(window.localStorage.getItem("alertas")) //ir a buscar por alertas
         if (!alertasDB) {
             alertasDB = []
         }
@@ -19,7 +22,7 @@ btnRegistrarAlerta.addEventListener("click", function () {
     }
 })
 
-function showToast(msg) {
+function showToast(msg) { //funcionshowtoast para las ventanas emergentes de notificacion
     let spanMsg = document.getElementById("msg")
     spanMsg.innerHTML = msg
     var toastElList = [].slice.call(document.querySelectorAll('.toast'))

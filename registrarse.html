@@ -17,6 +17,7 @@
     <script src="https://kit.fontawesome.com/63c9141fa8.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- inicio Menu parte superior-->
     <header>
         <div class="header__content">        
             <div class="nav__logo">
@@ -41,11 +42,14 @@
             </div>     
         </div>
     </header>
+    <!-- fin Menu parte superior-->
     <div style="background-image: url('./assets/img/fondo4.jpg'); background-size: cover;" class="footer-ingresar">
-        <div class="prueba">
+        <!--Inicio de formulario de registro-->
+        <div class="prueba"><!--logo de registro-->
             <img src="./assets/img/" alt="">
         </div>
         <form id=form class="formulario col-sm-12 col-md-6 col-lg-4 col-xl-4 mx-5" style="background-image:url('./assets/img/fondoformulario.jpg')">
+            <!--formulario de registro-->
             <h1>Sing Up</h1>
             <div class="contenedor">
                 <div class="input__contenedor">
@@ -69,12 +73,12 @@
                     <p>By signing up, you agree to our Terms of Use and Privacy Policy. </p>
                     <p>Do you already have an account?<a class="link" href="inicio-sesion.html"> Login </a></p>
                 </div>
+                <!--fin formulario de registro-->
             </div>
-            
         </form>
-        
     </div>
     <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <!--ShowToast de notificacion-->
         <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
                 <img src="./assets/img/icon.png" class="rounded me-2" alt="...">
@@ -86,13 +90,16 @@
                 <span id="msg"></span>
             </div>
         </div>
+        <!-- fin ShowToast de notificacion-->
     </div>
-    <script src="./assets/js/registrarse.js"> </script>
+    <script src="./assets/js/registrarse.js"> </script> <!--Scrip JS de la pagina de registro-->
     <footer class="signup">
+        <!--footer de la pagina con sus cards-->
         <div class="container" >
             <div class="row">
                 <h3 class="cambios col-sm-6 col-md-12 col-lg-12 col-xl-12">Haz parte del cambio</h3>
-                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 " style="width: 18rem;">
+                    <!--1era card-->
                     <img src="./assets/img/cat4.jpg" class="card-img-top" alt="gatito feliz">
                     <div class="card-body">
                     <h5 class="card-title"><b>Adopta</b></h5>
@@ -104,7 +111,8 @@
                     <a href="#Apoyanos" class="card-link">#Apoyanos</a>
                     </div>
                 </div>
-                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 " style="width: 18rem;">
+                    <!--2da card-->
                     <img src="./assets/img/dog3.jpg" class="card-img-top" alt="Perrito feliz">
                     <div class="card-body">
                     <h5 class="card-title">Apadrina</h5>
@@ -115,7 +123,8 @@
                     <a href="#Apoyanos" class="card-link">#Apoyanos</a>
                     </div>
                 </div>
-                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 " style="width: 18rem;">
+                    <!--3era card-->
                     <img src="./assets/img/dog7.jpg" class="card-img-top" alt="Perrito">
                     <div class="card-body">
                     <h5 class="card-title">Dona</h5>
@@ -126,7 +135,8 @@
                     <a href="#Apoyanos" class="card-link">#Apoyanos</a>
                     </div>
                 </div>
-                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 " style="width: 18rem;">
+                    <!--4ta card-->
                     <img src="./assets/img/cat1.jpg" class="card-img-top" alt="gatito">
                     <div class="card-body">
                     <h5 class="card-title">Difunde</h5>
@@ -138,8 +148,11 @@
                     </div>
                 </div>
                 <p class="mt-5 mb-3 text-muted">&copy; AlphaPets</p>
+                <!--permisos-->
             </div>    
+            <!--final card-->
         </div>
     </footer> 
+    <!--final footer-->
 </body>
 </html>

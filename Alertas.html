@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="alertasfondo">
-        
+        <!-- inicio Menu parte superior-->
         <header>
             <div class="header__content">
                 <div class="nav__logo">
@@ -38,16 +38,20 @@
                 </div>     
             </div>
         </header> 
+        <!-- fin Menu parte superior-->
         <br>
         <br>
         <br>
         <main class="form-signin">
+            <!--container de imagen y formulario-->
             <div class="container">
                 <div class="row"  >
                     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 alertas" >
+                        <!--imagen alertas-->
                         <img  class="img-fluid" src="./assets/img/Alertas.jpg" alt=""  width="600px">
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6"  >
+                        <!--formulario de recepcion de alertas-->
                         <form id="alertasForm" class="needs-validation" novalidate>
                             <img class="mb-4" src="./assets/img/logo.png" alt="" width="100" height="100">
                             <h1 class="mb-3 nueva-alerta" id="formularioalertas">Nueva Alerta</h1>
@@ -68,10 +72,11 @@
                                 <label for="floatingInput">Observacion</label>
                             </div>
                             <br>
-
+                            <!--fin de alertas-->
+                            <!--boton para registrar alertas-->
                             <button id="btnRegistrarAlerta" class="btn btn-lg btn-primary" type="submit"
                                 onclick="event.preventDefault()">Registrar Alerta</button>
-                            
+                            <!--boton para ver alertas registradas-->
                             <div class="btn btn-lg btn-success">
                                 <a id="mostrar" href="./lista-Alertas.html" role="button">Mostrar Lista de Alertas</a>
                             </div>
@@ -82,6 +87,7 @@
             <br>
             
         </main>
+        <!--show toast de notificaciones-->
         <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
             <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header">
@@ -94,14 +100,16 @@
                     <span id="msg"></span>
                 </div>
             </div>
+            <!-- fin show toast de notificaciones-->
         </div>
         <script src="./assets/js/Alertas.js"></script>
         <footer>
-            
+            <!--footer de la pagina con sus cards-->
             <div class="container">
                 <div class="row">
                     <h3 class="cambios col-sm-6 col-md-12 col-lg-12 col-xl-12">Haz parte del cambio</h3>        
                     <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3" style="width: 18rem;">
+                        <!--1era card-->
                         <img src="./assets/img/cat4.jpg" class="card-img-top" alt="gatito feliz">
                         <div class="card-body">
                         <h5 class="card-title"><b>Adopta</b></h5>
@@ -114,6 +122,7 @@
                         </div>
                     </div>
                     <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3" style="width: 18rem;">
+                        <!--2da card-->
                         <img src="./assets/img/dog3.jpg" class="card-img-top" alt="Perrito feliz">
                         <div class="card-body">
                         <h5 class="card-title">Apadrina</h5>
@@ -125,6 +134,7 @@
                         </div>
                     </div>
                     <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3" style="width: 18rem;">
+                        <!--3era card-->
                         <img src="./assets/img/dog7.jpg" class="card-img-top" alt="Perrito">
                         <div class="card-body">
                         <h5 class="card-title">Dona</h5>
@@ -137,6 +147,7 @@
                     </div>
 
                     <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3" style="width: 18rem;">
+                        <!--4ta card-->
                         <img src="./assets/img/cat1.jpg" class="card-img-top" alt="gatito">
                         <div class="card-body">
                         <h5 class="card-title">Difunde</h5>
@@ -147,9 +158,11 @@
                         <a href="#Apoyanos" class="card-link">#Apoyanos</a>
                         </div>
                     </div>
+                    <!--final card-->
                 </div>    
             </div>
         </footer> 
+        <!--final footer-->
     </div>
 </body>
 </html>
