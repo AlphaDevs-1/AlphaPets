@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/png" href="./assets/img/logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/63c9141fa8.js" crossorigin="anonymous"></script>
@@ -21,109 +23,116 @@
 <body>.
     <!--header inicio-->
     <header>
-        <div class="header__content">
-
-        
+        <div class="header__content">        
             <div class="nav__logo">
                 <img src="./assets/img/logo.svg" alt="logo AlphaDevs">
             </div>
-
             <div class="nav__container">
-                <nav >           
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="./home.html" class="nav__link">home</a></li>
-                        <li class="nav__item"><a href="#garelly" class="nav__link">garelly</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Menu</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li class="nav__item"><a href="home.html" class="nav__link">Inicio</a></li>
+                            <li class="nav__item"><a href="#garelly" class="nav__link">Enamorate</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contactanos</a></li>
+                            <li class="nav__item"><a href="./inicio-sesion.html" class="nav__link">Ingresar</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>     
         </div>
-    </header>  
-    <section class="hero__main container">
-        <div class="hero__text">
-            <h1 class="hero__title">fundacion de perros</h1>
-            <p class="hero__subtitle">esta es uan funcaion ayudame por favor</p>
-            <a href="inicio-sesion.html" class="hero__cta">join us!</a>
-        </div>
-    </section>
-
+    </header>
+    <div class="fondo">
+        <section class="hero__main container" class="img-fluid">
+            <div class="capa-fondo">
+                <div class="hero__text">
+                    <h1 class="cambio ">Bienvenidos!</h1>
+                    <br>
+                    <h2 class="col-sm-12 col-md-5 col-lg-6 col-xl-6 leyenda"> 
+                        <i>"La grandeza de una nacion y su progreso moral pueden ser juzgados por la forma en que se trata a sus animales" 
+                        </i>
+                        <br>        
+                        <br>        
+                        <i> Mahatma Gandhi</i>
+                    </h2>
+                    <br>        
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>            
+            </div>
+        </section>
     
-        <!--header fin-->
-    <section>
-            <i class="fa-solid fa-paw"></i>
-            <i class="fa-solid fa-handshake-angle"></i>
-    </section>
-        <!--cards inicio-->
-    <div class="cards__all">
-            <!--card1-->
-            <div class="cars">           
-                <div class="card__icon">
-                    <i class="fas fa-thumbs-up fa-5x" aria-hidden="true"></i>
-                </div>
-                <div class="card__title">
-                    <h3>adopt</h3>
-                </div>
-                <div class="card__img">
-                    <img src="./assets/img/cat4.jpg" alt="perro feliz">
-                </div>
-                <div class="card__text">
-                    <p>We have many loving cats and dogs just waiting for you! We have several options for those that would like to give a shelter animal a forever home.</p>
-                </div>
-                <div class="card__btn">
-                    <a href="#"></a>
-                </div>
+
+<!--header fin-->
+        <footer>
+            <div class="container" >
+                <div class="row" >
+                    <h3 class="cambios col-sm-6 col-md-12 col-lg-12 col-xl-12">Haz parte del cambio</h3>
+                    <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                        <img src="./assets/img/cat4.jpg" class="card-img-top" alt="gatito feliz">
+                        <div class="card-body">
+                        <h5 class="card-title"><b>Adopta</b></h5>
+                        <p class="card-text">Te invitamos a nuestras jornadas de adopción o visita la fundación para que conozcas a tu alma gemela.
+                        Todos nuestros peludos son entregados en óptimas condiciones de salud a adoptantes responsables que se comprometan a cuidarlos por el resto de sus vidas..</p>
+                        </div>
+                        
+                        <div class="card-body">
+                        <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                        <img src="./assets/img/dog3.jpg" class="card-img-top" alt="Perrito feliz">
+                        <div class="card-body">
+                        <h5 class="card-title">Apadrina</h5>
+                        <p class="card-text">Puedes apadrinar alguno de nuestros peludos para que su estadía en nuestro refugio sea óptima. Manejamos diferentes planes de padrinos en los que puedes hacer un aporte mensual. Si estás interesado en apadrinar un Tepiano contáctanos y te daremos más detalles.</p>
+                        </div>
+                        
+                        <div class="card-body">
+                        <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                        <img src="./assets/img/dog7.jpg" class="card-img-top" alt="Perrito">
+                        <div class="card-body">
+                        <h5 class="card-title">Dona</h5>
+                        <p class="card-text">Puedes donar desde alimentos y medicinas hasta cobijas o tejas para la adecuación del refugio. También puedes compartir tiempo con los peluditos, ayudarnos en la fundación o hacer donaciones en dinero.</p>
+                        </div>
+                        
+                        <div class="card-body">
+                        <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                        <img src="./assets/img/cat1.jpg" class="card-img-top" alt="gatito">
+                        <div class="card-body">
+                        <h5 class="card-title">Difunde</h5>
+                        <p class="card-text">Comparte, participa y apoya las jornadas de adopción y nuestros eventos como caminatas y jornadas de baño. Ayúdanos a promover las jornadas de esterilización gratuitas o de bajo costo que compartimos en nuestras redes.</p>
+                        </div>
+                        
+                        <div class="card-body">
+                        <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                        </div>
+                    </div>
+                </div>    
             </div>
-        <!--card2-->
-        <div class="cars">           
-            <div class="card__icon">
-                <i class="fas fa-thumbs-up fa-5x" aria-hidden="true"></i>
-            </div>
-            <div class="card__title">
-                <h3>volunteer</h3>
-            </div>
-            <div class="card__img">
-                <img src="./assets/img/dog1.jpg" alt="perro feliz">
-            </div>
-            <div class="card__text">
-                <p>Do you love working with animals? We can always use cheerful, energetic volunteers! If you can help out in any way, we can find a place for you.</p>
-            </div>
-            <div class="card__btn">
-                <a href="#"></a>
-            </div>
-        </div>
-        <!--card3-->
-        <div class="cars">           
-            <div class="card__icon">
-                <i class="fas fa-thumbs-up fa-5x" aria-hidden="true"></i>
-            </div>
-            <div class="card__title">
-                <h3>donate</h3>
-            </div>
-            <div class="card__img">
-                <img src="./assets/img/cat2.jpg" alt="perro feliz">
-            </div>
-            <div class="card__text">
-                <p>Your donation helps us to purchase needed items, such as veterinary care, food, medicine, and other supplies, as well as helps us with utilities. </p>
-            </div>
-            <div class="card__btn">
-                <button>infor</button>
-                <a href="#"></a>
-            </div>
-        </div>
+        </footer> 
     </div>
-    <!--cards fin-->
-    <footer>
-        <i class="fas fa-thumbs-up fa-5x" aria-hidden="true"></i>
-        <i class="fa-solid fa-circle-dollar-to-slot" aria-hidden="true"></i>
-        <i class="fa-solid fa-dog"  aria-hidden="true"></i>
-        <i class="fa-solid fa-paw"  aria-hidden="true"></i>
-        <i class="fa-solid fa-handshake-angle"  aria-hidden="true"></i>
-        <i class="fa-solid fa-dog"></i>
-    </footer>
-        <i class="fa-solid fa-handshake-angle"></i>
-        <i class="fa-solid fa-cat"></i>
-        <i class="fa-solid fa-paw"></i>
-        
 </body>
 
 </html>
