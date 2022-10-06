@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/logo.svg">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Bienvenido AlphaPets</title>
+</head>
+<body>
+    <div id="alertasfondo">
+        
+        <header>
+            <div class="header__content">
+                <div class="nav__logo">
+                    <img src="./assets/img/logo.svg" alt="logo AlphaDevs">
+                </div>
+                <div class="nav__container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">Menu</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav">
+                                <li class="nav__item"><a href="Principal.html" class="nav__link">Principal</a></li>
+                                <li class="nav__item"><a href="Alertas.html" class="nav__link">Alertas</a></li>
+                                <li class="nav__item"><a href="#garelly" class="nav__link">Enamorate</a></li>
+                                <li class="nav__item"><a href="#contact" class="nav__link">Contactanos</a></li>                            
+                                <li class="nav__item"><a href="home.html" class="nav__link">Salir</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>     
+            </div>
+        </header> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="row" id="cuadro" >
+        <div class="col-sm-0 col-md-0 col-lg-6 col-xl-6 " >
+            <img  class="img-fluid" id="sebusca"src="./assets/img/sebusca.jpg" alt=""  width="500px">
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <table class="table table-dark table-hover ">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Animal</th>
+                    <th scope="col">Ubicacion</th>
+                    <th scope="col">Observacion</th>
+                    <th scope="col">Atendida</th>
+                    
+                </tr>
+                </thead>
+                    <tbody id="container-list">
+                </tbody>
+                
+            </table>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button id="add-alert" class="btn btn-primary"  type="button">Agregar Alerta</button>
+            </div>
+        </div>    
+    </div>
+</div>
+<br>
+
+
+    <script src="./assets/js/lista-Alertas.js"></script>
+    <footer>
+        <div class="container" >
+            <div class="row">
+                <h3 class="cambios col-sm-6 col-md-12 col-lg-12 col-xl-12">Haz parte del cambio</h3>
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                    <img src="./assets/img/cat4.jpg" class="card-img-top" alt="gatito feliz">
+                    <div class="card-body">
+                    <h5 class="card-title"><b>Adopta</b></h5>
+                    <p class="card-text">Te invitamos a nuestras jornadas de adopción o visita la fundación para que conozcas a tu alma gemela.
+                    Todos nuestros peludos son entregados en óptimas condiciones de salud a adoptantes responsables que se comprometan a cuidarlos por el resto de sus vidas..</p>
+                    </div>
+                    
+                    <div class="card-body">
+                    <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                    <img src="./assets/img/dog3.jpg" class="card-img-top" alt="Perrito feliz">
+                    <div class="card-body">
+                    <h5 class="card-title">Apadrina</h5>
+                    <p class="card-text">Puedes apadrinar alguno de nuestros peludos para que su estadía en nuestro refugio sea óptima. Manejamos diferentes planes de padrinos en los que puedes hacer un aporte mensual. Si estás interesado en apadrinar un Tepiano contáctanos y te daremos más detalles.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                    <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                    <img src="./assets/img/dog7.jpg" class="card-img-top" alt="Perrito">
+                    <div class="card-body">
+                    <h5 class="card-title">Dona</h5>
+                    <p class="card-text">Puedes donar desde alimentos y medicinas hasta cobijas o tejas para la adecuación del refugio. También puedes compartir tiempo con los peluditos, ayudarnos en la fundación o hacer donaciones en dinero.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                    <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-1" style="width: 18rem;">
+                    <img src="./assets/img/cat1.jpg" class="card-img-top" alt="gatito">
+                    <div class="card-body">
+                    <h5 class="card-title">Difunde</h5>
+                    <p class="card-text">Comparte, participa y apoya las jornadas de adopción y nuestros eventos como caminatas y jornadas de baño. Ayúdanos a promover las jornadas de esterilización gratuitas o de bajo costo que compartimos en nuestras redes.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                    <a href="#Apoyanos" class="card-link">#Apoyanos</a>
+                    </div>
+                </div>
+                <p class="mt-5 mb-3 text-muted">&copy; AlphaPets</p>
+            </div>    
+        </div>
+    </footer> 
+</body>
+</html>

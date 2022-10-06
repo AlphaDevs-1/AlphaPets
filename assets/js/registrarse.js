@@ -33,3 +33,4 @@ function showToast(msg) {
     })
     toastList.forEach(toast => toast.show())
 }
+
