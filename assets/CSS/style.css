@@ -5,9 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-
-
-
 .contenedor{
     width: 100%;
     padding: 15px;
@@ -18,11 +15,12 @@
     padding: 3px;
     border: 1px solid #1F83A6;
 }
-h1{
+h3{
     text-align: center;
     color: #1F83A6;
     font-size: 40px;
     text-transform: uppercase;
+    font-style: italic;
 }
 input[type="text"],
 input[type="password"],
@@ -37,11 +35,15 @@ input[type="email"]{
     margin-bottom: 15px;
     padding: 5px;
     border-bottom: 1px solid #1F83A6;
+    background-color: rgb(243, 237, 237);
 }
 .icon{
     min-width: 50px;
     text-align: center;
     color: #999;
+}
+h1{
+    text-align: center;
 }
 .button{
     border: none;
@@ -76,7 +78,14 @@ p{
         width: 500px;
         margin-top: 150px;
         border-radius: 2%;
+        background-color: aquamarine;
     }
+.registro_ppal{
+    background-color:rgb(216, 221, 212)
+}
+
+}
+
 }
 header{
     position: fixed;
@@ -84,16 +93,19 @@ header{
     left: 0;
     width: 100%;
     height: 80px;
-    background: #fff;
-    
-    
+   
 }
 .header__content{
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    
+    
 
+}
+.hero__subtitle{
+    text-align:left;
 }
 
 
@@ -158,7 +170,6 @@ header{
     width: 100%;
     height: 80px;
     background: #fff;
-    box-shadow: 3px 16px 28px 11px rgba(0,0,0,0.78);
     z-index: 2;
 }
 .header__content{
@@ -227,8 +238,23 @@ header{
     background-size: cover;
     background-position: center center;
     top: 80px;
+    margin-bottom: 5%;
 }
 
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body{
+    text-align: center;
+    
+}
+
+.row{
+    padding: 5%;
+    
+}
 
 .hero__text{
     max-width: 600px;
@@ -256,9 +282,9 @@ header{
 
 }
 .card__icon{
-    
-    padding: 30px;
+    padding: 10px;
     font-size: 12px;
+
 }
 .card__title h3{
     text-transform: uppercase;
@@ -269,18 +295,20 @@ header{
 
 
 .card__img img{
-    height: 250px;
-    width: 300px;
+    height: 350px;
+    width: 400px;
     border-radius: 20px;
 }
 .card__text{
     font-family: 'Courier New', Courier, monospace;
-    height: 150px;
+    height: 250px;
     padding: 15px;
-    text-align: center;
-
-
+    
 }
+footer{
+    margin-top: 5%;
+}
+
 /* sdas// 
 body{
 
